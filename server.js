@@ -27,3 +27,12 @@ app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
 
+//import express, body-parser, and cors modules:
+//-express is for building REST apis
+//-body-parser helps to parse the request and create the req.body object
+//-cors provides Express middleware to enable CORS
+//create an express app, then add body-parser and cors middleware using app.use() method. Notice that we set the origin: localhost:8081, 
+//-define a GET route which is simple for test
+//-listen on port 8080 for incoming requests
+//run the app with the command: node server.js
+//open browser with url http://localhost:8080/ you should see your message
