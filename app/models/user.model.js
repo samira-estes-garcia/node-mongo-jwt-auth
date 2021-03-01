@@ -26,3 +26,4 @@ module.exports = User;
 //find a user by username: User.findOne({ username:...});
 //find all ROles which name in given roles array: Role.find({ name: { $in: roles }});
 //these functions will be used in our Controllers and Middlewares
+
